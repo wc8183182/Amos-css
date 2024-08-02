@@ -4,6 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .wrap {
+        width: 100%;
+        max-width: 1280px;
+        margin: auto;
+      }
+      .item {
+        background-color: #ffa;
+        margin: 0 10px 20px;
+        padding: 10px;
+      }
+      @media screen and (max-width: 768px) {
+        .wrap {
+          display: flex;
+        }
+        .item {
+          width: 500px;
+        }
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="wrap">
+      <div class="item">
+        <h3>title</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt in,
+          porro provident odio exercitationem numquam architecto vitae a maiores
+          aut obcaecati eaque optio, mollitia ullam itaque et similique. Animi,
+          corrupti?
+        </p>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="item">
+        <h3>title</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt in,
+          porro provident odio exercitationem numquam architecto vitae a maiores
+          aut obcaecati eaque optio, mollitia ullam itaque et similique. Animi,
+          corrupti?
+        </p>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="item">
+        <h3>title</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt in,
+          porro provident odio exercitationem numquam architecto vitae a maiores
+          aut obcaecati eaque optio, mollitia ullam itaque et similique. Animi,
+          corrupti?
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
