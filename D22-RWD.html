@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,20 +10,127 @@
         padding: 0;
         list-style: none;
       }
+      
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .logo img {
+          /* vertical-align: middle; */
+          margin-left: 10px;
+          display: block;
+        }
+        nav {
+          display: flex;
+          left: 0;
+          position: relative;
+          height: auto;
+          width: auto;
+          top: 0;
+          background-color: transparent; /*背景透明*/
+        }
+        nav a {
+          border-bottom: none;
+          color: black;
+        }
+      }
+      .banner img {
+        width: 100%;
+      }
+      .item-group {
+        width: 100%;
+        max-width: 1400px;
+        margin: auto;
+      }
+      .title {
+        margin: 0 0 20px;
+        background: #ccc;
+        padding: 30px 10px;
+      }
+      .title p {
+        text-align: center;
+      }
+      .item {
+        margin: 0 10px 40px;
+      }
+      .item .pic img {
+        width: 100%;
+      }
+      .text h3 {
+        padding: 20px;
+      }
+      .text p {
+        padding: 10px;
+      }
+      .title h2 {
+        text-align: center;
+        font-size: 46px;
+      }
+      .title p {
+        font-size: 22px;
+      }
+      .footer {
+        background: #333;
+        color: #aaa;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .item .text h3 {
+        text-align: center;
+        font-size: 24px;
+      }
+
+      /* .item-group {
+        display: flex;
+      } */
+
+      @media screen and (min-width: 768px) {
+        .item-group {
+          display: flex;
+        }
+
+        .service .item {
+          /*他這邊沒有變*/
+          display: flex;
+        }
+        .service .item .pic,
+        .service .item .text {
+          width: 50%;
+        }
+      }
     </style>
   </head>
   <body>
+    
+    </div>
     <div class="banner">
       <img src="https://picsum.photos/id/5/1200/400" alt="" />
     </div>
     <div class="about">
       <div class="wrap">
-        <h2>關於我們</h2>
-        <p>
-          規定信箱立刻站點創造世界一條一邊節省，品種事實上美女組織結果研究所我想動物進入類別，理論戰略流行美容，四個你怎不來而在階段新年財經一致關鍵字思維資產出了，衛生作品，資本地位有利於過去農村製造級別調查一點另一等級維修字幕，廣大老公立刻玄幻合適語文機構，退出。
-        </p>
+        <div class="title">
+          <h2>關於我們</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            fugiat, aperiam quis reiciendis et dolorem aspernatur dolorum
+            voluptates ad sint!
+          </p>
+        </div>
       </div>
-      <div class="item-grop">
+      <div class="item-group">
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/id/683/300/200" alt="" />
+          </div>
+          <div class="text">
+            <h3>title</h3>
+            <p>
+              整體然而新技術主題股票表示規定線路，一本交給發佈日期都會不過原文制度網域名稱醫藥，登陸界面深深唯一。
+            </p>
+          </div>
+        </div>
+
         <div class="item">
           <div class="pic">
             <img src="https://picsum.photos/id/684/300/200" alt="" />
@@ -38,36 +145,83 @@
 
         <div class="item">
           <div class="pic">
-            <img src="https://picsum.photos/id/684/300/200" alt="" />
+            <img src="https://picsum.photos/id/685/300/200" alt="" />
           </div>
+          <div class="text">
+            <h3>title</h3>
+            <p>
+              整體然而新技術主題股票表示規定線路，一本交給發佈日期都會不過原文制度網域名稱醫藥，登陸界面深深唯一。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="wrap">
+        <div class="item-group">
+          <div class="item">
+            <div class="pic">
+              <img src="https://picsum.photos/id/686/300/200" alt="" />
+            </div>
+            <div class="text">
+              <h3>title</h3>
+              <p>
+                供應對方傢伙市場價森林，也要獲取斗內夏天含有就業遺憾幫你詳細內容經濟不再進行，也要機場，工具隱藏全。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="title">
+        <h2>關於我們</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+          fugiat, aperiam quis reiciendis et dolorem aspernatur dolorum
+          voluptates ad sint!
+        </p>
+      </div>
+    </div>
+    <div class="item-group">
+      <div class="item">
+        <div class="pic">
+          <img src="https://picsum.photos/id/683/300/200" alt="" />
+        </div>
+        <div class="text">
           <h3>title</h3>
           <p>
             整體然而新技術主題股票表示規定線路，一本交給發佈日期都會不過原文制度網域名稱醫藥，登陸界面深深唯一。
           </p>
         </div>
+      </div>
 
-        <div class="item">
-          <div class="pic">
-            <img src="https://picsum.photos/id/684/300/200" alt="" />
-          </div>
-          <div class="text">
-            <h3>title</h3>
-            <p>
-              整體然而新技術主題股票表示規定線路，一本交給發佈日期都會不過原文制度網域名稱醫藥，登陸界面深深唯一。
-            </p>
-          </div>
+      <div class="item">
+        <div class="pic">
+          <img src="https://picsum.photos/id/684/300/200" alt="" />
+        </div>
+        <div class="text">
+          <h3>title</h3>
+          <p>
+            整體然而新技術主題股票表示規定線路，一本交給發佈日期都會不過原文制度網域名稱醫藥，登陸界面深深唯一。
+          </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="pic">
+          <img src="https://picsum.photos/id/685/300/200" alt="" />
+        </div>
+        <div class="text">
+          <h3>title</h3>
+          <p>
+            整體然而新技術主題股票表示規定線路，一本交給發佈日期都會不過原文制度網域名稱醫藥，登陸界面深深唯一。
+          </p>
         </div>
       </div>
     </div>
-    <div class="service">
-      <div class="wrap">
-        <div class="item-grop">
-          <div class="item">
-            <div class="pic"></div>
-            <div class="text"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="footer">&COPY;copyright 2024 by csscoke</div>
   </body>
 </html>
