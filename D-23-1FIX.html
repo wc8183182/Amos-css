@@ -1,107 +1,32 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="D-23-1FIX.css" />
     <title>Document</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-      }
-
-      .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-      .logo img {
-        /* vertical-align: middle; */
-        margin-left: 10px;
-        display: block;
-      }
-      nav {
-        display: flex;
-        left: 0;
-        position: relative;
-        height: auto;
-        width: auto;
-        top: 0;
-        background-color: transparent; /*背景透明*/
-      }
-      nav a {
-        border-bottom: none;
-        color: black;
-      }
-
-      .banner img {
-        width: 100%;
-      }
-      .item-group {
-        width: 100%;
-        max-width: 1400px;
-        margin: auto;
-      }
-      .title {
-        margin: 0 0 20px;
-        background: #ccc;
-        padding: 30px 10px;
-      }
-      .title p {
-        text-align: center;
-      }
-      .item {
-        margin: 0 10px 40px;
-      }
-      .item .pic img {
-        width: 100%;
-      }
-      .text h3 {
-        padding: 20px;
-      }
-      .text p {
-        padding: 10px;
-      }
-      .title h2 {
-        text-align: center;
-        font-size: 46px;
-      }
-      .title p {
-        font-size: 22px;
-      }
-      .footer {
-        background: #333;
-        color: #aaa;
-        text-align: center;
-        padding: 10px 0;
-      }
-      .item .text h3 {
-        text-align: center;
-        font-size: 24px;
-      }
-
-      /* .item-group {
-        display: flex;
-      } */
-
-      @media screen and (min-width: 768px) {
-        .item-group {
-          display: flex;
-        }
-
-        .service .item {
-          /*他這邊沒有變*/
-          display: flex;
-        }
-        .service .item .pic,
-        .service .item .text {
-          width: 50%;
-        }
-      }
-    </style>
   </head>
   <body>
+    <input type="checkbox" name="" id="menu_control" />
+    <div class="header">
+      <h1 class="logo">
+        <a href="#">
+          <img src="https://picsum.photos/id/684/60/40" alt="" />
+        </a>
+      </h1>
+      <label for="menu_control" class="menu_btn">
+        <span>選單</span>
+      </label>
+      <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </nav>
+    </div>
     <div class="banner">
       <img src="https://picsum.photos/id/5/1200/400" alt="" />
     </div>
