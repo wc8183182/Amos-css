@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -77,7 +76,7 @@ nav a {
   left: 0;
 }
 @media screen and (min-width: 768px) {
-  /*寬度在768以上的畫面*/
+  /*寬度在768以上的畫面 平板*/
   .menu_btn {
     display: none;
   }
@@ -107,117 +106,29 @@ nav a {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .logo img {
-    /* vertical-align: middle; */
-    margin-left: 10px;
-    display: block;
-  }
-  nav {
-    display: flex;
-    left: 0;
-    position: relative;
-    height: auto;
-    width: auto;
-    top: 0;
-    background-color: transparent; /*背景透明*/
-  }
-  nav a {
-    border-bottom: none;
-    color: black;
-  }
-}
-.banner img {
-  width: 100%;
-}
-.item-group {
-  width: 100%;
-  max-width: 1400px;
-  margin: auto;
-}
-.title {
-  margin: 0 0 20px;
-  background: #ccc;
-  padding: 30px 10px;
-}
-.title p {
-  text-align: center;
-}
-.item {
-  margin: 0 10px 40px;
-}
-.item .pic img {
-  width: 100%;
-}
-.text h3 {
-  padding: 20px;
-}
-.text p {
-  padding: 10px;
-}
-.title h2 {
-  text-align: center;
-  font-size: 46px;
-}
-.title p {
-  font-size: 22px;
-}
-.footer {
-  background: #333;
-  color: #aaa;
-  text-align: center;
-  padding: 10px 0;
-}
-.item .text h3 {
-  text-align: center;
-  font-size: 24px;
-}
-
-/* .item-group {
   display: flex;
-} */
-
-@media screen and (min-width: 768px) {
-  .item-group {
-    display: flex;
-  }
-
-  .service .item {
-    /*他這邊沒有變*/
-    display: flex;
-  }
-  .service .item .pic,
-  .service .item .text {
-    width: 50%;
-  }
+  justify-content: space-between;
+  align-items: center;
 }
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .logo img {
-    /* vertical-align: middle; */
-    margin-left: 10px;
-    display: block;
-  }
-  nav {
-    display: flex;
-    left: 0;
-    position: relative;
-    height: auto;
-    width: auto;
-    top: 0;
-    background-color: transparent; /*背景透明*/
-  }
-  nav a {
-    border-bottom: none;
-    color: black;
-  }
+.logo img {
+  /* vertical-align: middle; */
+  margin-left: 10px;
+  display: block;
 }
+nav {
+  display: flex;
+  left: 0;
+  position: relative;
+  height: auto;
+  width: auto;
+  top: 0;
+  background-color: transparent; /*背景透明*/
+}
+nav a {
+  border-bottom: none;
+  color: black;
+}
+
 .banner img {
   width: 100%;
 }
